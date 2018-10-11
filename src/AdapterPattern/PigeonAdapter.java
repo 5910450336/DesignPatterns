@@ -1,6 +1,6 @@
 package AdapterPattern;
 
-public class PigeonAdapter implements Quackable{
+public class PigeonAdapter implements Quackable {
     Pigeon pigeon;
     public PigeonAdapter(Pigeon pigeon) {
         this.pigeon = pigeon;

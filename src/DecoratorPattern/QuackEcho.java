@@ -1,6 +1,6 @@
 package DecoratorPattern;
 
-public class QuackEcho implements Quackable{
+public class QuackEcho implements Quackable {
     Quackable duck;
     public void quack(){
         duck.quack();
